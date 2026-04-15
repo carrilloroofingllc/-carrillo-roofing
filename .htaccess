@@ -1,0 +1,8 @@
+# Apache: use when this folder is the site document root (not a subdirectory).
+ErrorDocument 404 /404.html
+
+<IfModule mod_headers.c>
+  Header set X-Frame-Options "DENY"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
