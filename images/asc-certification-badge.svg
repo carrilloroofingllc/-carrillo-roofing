@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="ascTitle ascDesc">
+  <title id="ascTitle">ASC certification badge</title>
+  <desc id="ascDesc">Badge for ASC-certified roofing and metal system installations.</desc>
+  <defs>
+    <linearGradient id="ascBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2f7f58"/>
+      <stop offset="100%" stop-color="#1f5a3f"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="316" height="156" rx="12" fill="url(#ascBg)" stroke="#163e2c" stroke-width="2"/>
+  <text x="160" y="66" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="0.12em">ASC</text>
+  <text x="160" y="98" text-anchor="middle" fill="#d5f2e2" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="0.14em">CERTIFIED</text>
+  <text x="160" y="124" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="700">SYSTEM INSTALLER</text>
+  <text x="160" y="141" text-anchor="middle" fill="#b9e3cc" font-family="Arial, sans-serif" font-size="10" font-weight="600">MANUFACTURER TRAINED</text>
+</svg>

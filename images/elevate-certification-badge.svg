@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="elevateTitle elevateDesc">
+  <title id="elevateTitle">Elevate certification badge</title>
+  <desc id="elevateDesc">Badge for Elevate roofing system certifications.</desc>
+  <defs>
+    <linearGradient id="elevateBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d83a24"/>
+      <stop offset="100%" stop-color="#a61d0b"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="316" height="156" rx="12" fill="url(#elevateBg)" stroke="#741508" stroke-width="2"/>
+  <text x="160" y="62" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" font-weight="800">ELEVATE</text>
+  <text x="160" y="95" text-anchor="middle" fill="#ffe0da" font-family="Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="0.16em">CERTIFIED</text>
+  <text x="160" y="122" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700">ROOFING SYSTEMS</text>
+  <text x="160" y="140" text-anchor="middle" fill="#ffd2c9" font-family="Arial, sans-serif" font-size="10" font-weight="600">APPROVED INSTALLER</text>
+</svg>

@@ -611,31 +611,34 @@ a.brand-home:hover {
 
 .cert-badges {
   margin-top: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem 2rem;
-  align-items: flex-end;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  align-items: stretch;
 }
 
 .cert-badge {
   margin: 0;
   text-align: center;
-  max-width: min(280px, 100%);
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.85rem;
+  background: #fff;
 }
 
 .cert-badge img {
   display: block;
   margin: 0 auto;
-  width: auto;
-  max-width: 220px;
-  max-height: 160px;
+  width: min(220px, 100%);
+  max-width: 100%;
+  max-height: 120px;
   height: auto;
   object-fit: contain;
 }
 
 .cert-badge-caption {
-  margin: 0.5rem 0 0;
+  margin: 0.65rem 0 0;
   font-size: 0.82rem;
   color: var(--muted);
   line-height: 1.35;
