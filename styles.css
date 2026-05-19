@@ -50,7 +50,19 @@ a.brand-home {
   text-decoration: none;
 }
 
-a.brand-home:hover {
+a.brand-home {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.brand-logo {
+  border-radius: 8px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.brand-home:hover {
   text-decoration: underline;
 }
 
@@ -584,6 +596,56 @@ a.brand-home:hover {
   cursor: not-allowed;
 }
 
+.project-photo-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.project-photo {
+  margin: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.project-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.before-after-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.before-after-card {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.before-after-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.before-after-card figcaption {
+  padding: 0.5rem 0.75rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
 .gallery-actions {
   margin-top: 1rem;
   display: flex;
@@ -721,6 +783,28 @@ a.brand-home:hover {
   margin-bottom: 1rem;
 }
 
+.google-rating-summary {
+  margin: 0.35rem 0 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.google-stars {
+  color: #f59e0b;
+  letter-spacing: 0.05em;
+}
+
+.google-rating-meta {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.reviews-banner--spaced {
+  margin-top: 1.25rem;
+}
+
 .inline-link {
   color: var(--text);
   font-weight: 600;
@@ -840,7 +924,8 @@ a.brand-home:hover {
 
   .instagram-grid,
   .certifications-grid,
-  .testimonials-grid {
+  .testimonials-grid,
+  .before-after-grid {
     grid-template-columns: 1fr;
   }
 
