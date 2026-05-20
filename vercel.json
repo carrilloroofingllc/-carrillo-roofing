@@ -1,4 +1,10 @@
 {
-  "buildCommand": null,
-  "outputDirectory": "."
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "carrilloroofing.llc" }],
+      "destination": "https://www.carrilloroofing.llc/:path*",
+      "permanent": true
+    }
+  ]
 }
